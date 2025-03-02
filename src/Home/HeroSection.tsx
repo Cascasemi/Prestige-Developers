@@ -2,8 +2,8 @@ import React from 'react';
 import Button from '../UI/Button';
 import PlayButton from '../UI/PlayButton';
 
-// You'll need to replace heroImage with your own image
-import heroImage from '../../assets/images/placeholder.jpg';
+// Note: Replace with your actual image import
+const heroImage = "/placeholder-images/hero-construction.jpg";
 
 const HeroSection: React.FC = () => {
   return (
