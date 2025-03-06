@@ -26,7 +26,7 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className={`text-2xl font-bold ${isScrolled ? 'text-konta-dark' : 'text-white'}`}>
-            <span className="text-konta-orange">K</span>ONTA
+            <span className="text-konta-orange">PRESTIGE</span> DEVELOPERS
           </div>
           
           {/* Contact Info */}
@@ -49,7 +49,7 @@ const Header: React.FC = () => {
               <div>
                 <div className="text-xs text-gray-500">Email Address</div>
                 <div className={`text-sm font-bold ${isScrolled ? 'text-konta-dark' : 'text-white'}`}>
-                  info@konta.com
+                info@prestigedevelopers.com
                 </div>
               </div>
             </div>
